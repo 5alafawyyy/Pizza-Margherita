@@ -1,16 +1,22 @@
-# pizza_margherita
+# Pizza Margherita
 
-A new Flutter project.
+A new Flutter project. To know the features of Stack, ListView and GridView.
 
-## Getting Started
+# Covered:
+## Stack
 
-This project is a starting point for a Flutter application.
+## Scrolling Widgets
+### ListView
+  * ListView.Builder
+  * ListView.Seperated
+### GridView
+  * GridView.Count
 
-A few resources to get you started if this is your first Flutter project:
+* Layout with Overlapping Widgets
+* ListTile
+* Card
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Definitions
+## ListTile:
+  A single fixed-height row that contains some text and a leading or trailing icon.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
