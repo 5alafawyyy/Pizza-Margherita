@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pizza_margherita/screens/contacts.dart';
+import 'package:pizza_margherita/screens/gallery.dart';
 import 'package:pizza_margherita/screens/pizza_2_screen.dart';
 import 'package:pizza_margherita/screens/pizza_screen.dart';
 
@@ -70,6 +71,29 @@ class HomeScreen extends StatelessWidget {
                         );
                       },
                       child: const Text('Contacts'),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                        color: Colors.blueGrey[200],
+                        padding: const EdgeInsets.all(12.0),
+                        child: const Text('GridView: ')),
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: ((context) => const GalleryScreen()),
+                          ),
+                        );
+                      },
+                      child: const Text('Gallery'),
                     ),
                   ],
                 ),
